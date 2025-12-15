@@ -5,7 +5,7 @@ C2 over Trello
 
 ## Usage
 
-1. Create a board and get the board id
+1. Create a Trello board and get the board id
 2. Generate an API key using trello (see doc)
 3. Use this call to get a non expiring token : https://trello.com/1/connect?key=yourkey&name=your_board_name&expiration=never&response_type=token&scope=read,write
 4. Fill the token and the board id in the agent.nim template, and change the password for encryption
